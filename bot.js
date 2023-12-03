@@ -1,8 +1,8 @@
 import { Configuration, OpenAIApi } from "openai"
 import { createRequire } from "module"
 const require = createRequire(import.meta.url)
-const TelegramBot = require("node-telegram-bot-api")
-const dotenv = require("dotenv")
+const TelegramBot = require("6418889980:AAEFyVqawQDW3aRnsBwXdHH8ROInDYudKas")
+const dotenv = require(".env")
 
 dotenv.config()
 const token = process.env.TELEGRAM_BOT_TOKEN
